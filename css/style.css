@@ -1,1 +1,39 @@
 /* Ini file css */
+
+main {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.main-section {
+    padding: 16px;
+    background-color: aliceblue;
+    border-radius: 4px;
+}
+
+.section-celcius {
+    padding-top: 10px;
+}
+
+.section-fahrenheit {
+    padding-top: 10px;
+}
+
+.section-kalkulasi {
+    padding-top: 10px;
+}
+
+.section-explanation {
+    padding-top: 10px;
+}
+
+textarea {
+    width: 75%;
+    height: 32px;
+}
