@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Temperature Conversion</title>
 </head>
 <body>
@@ -18,9 +18,9 @@
                 <p>Masukkan suhu derajat Celsius (&deg;C) ke kotak di bawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (&deg;F).</p>
             </section>
 
-            <!-- Section Celcius -->
+            <!-- Section Celsius -->
             <section class="section-celsius">
-                <header>
+                <!-- <header>
                     <h3>Celsius (&deg;C)</h3>
                 </header>
                 <article>
@@ -31,27 +31,42 @@
                         <button>Reset</button>
                         <button>Reverse</button>
                     </div>
-                </article>
+                </article> -->
+                <p></p>
+                <b>Celsius (&deg;C):</b>
+                <br>
+                <textarea name="textareaCelsius" id="textareaCelsius"></textarea>
+                <div>
+                    <button onclick="celsiusToFahrenheit()">Convert</button>
+                    <button onclick="resetTextArea()">Reset</button>
+                    <button onclick="fahrenheitToCelsius()">Reverse</button>
+                </div>
             </section>
 
             <!-- Section Fahrenheit -->
             <section class="section-fahrenheit">
-                <header>
+                <!-- <header>
                     <h3>Fahrenheit (&deg;F)</h3>
                 </header>
                 <article>
                     <textarea></textarea>
-                </article>
+                </article> -->
+                <b>Fahrenheit (&deg;F):</b>
+                <br>
+                <textarea name="textareaFahrenheit" id="textareaFahrenheit"></textarea>
             </section>
 
             <!-- Section Kalkulasi -->
             <section class="section-kalkulasi">
-                <header>
+                <!-- <header>
                     <h3>Cara Kalkulasi</h3>
                 </header>
                 <article>
                     <textarea></textarea>
-                </article>
+                </article> -->
+                <b>Cara Kalkulasi:</b>
+                <br>
+                <textarea name="textareaKalkulasi" id="textareaKalkulasi"></textarea>
             </section>
 
             <!-- Section Explanation -->
@@ -68,6 +83,7 @@
                 </article>
             </section>
         </section>
+        <script src="js/script.js"></script>
     </main>
 </body>
 </html>
