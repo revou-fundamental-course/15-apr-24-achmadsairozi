@@ -37,4 +37,24 @@ main {
 textarea {
     width: 75%;
     height: 32px;
+    
 }
+
+.button-convert {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-reset {background-color: #008CBA;}
+
+.button-reverse {background-color: #f44336;}
+
+
